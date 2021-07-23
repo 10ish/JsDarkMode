@@ -1,0 +1,100 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Dark Mode</title>
+</head>
+
+<body>
+    <!-- Dark Mode Toggle Switch -->
+    <div class="theme-switch-wrapper">
+        
+        <span id="toggle-icon" >
+            <span class="toggle-text">Light Mode</span>
+            <i class="fas fa-sun" ></i>
+        </span>
+
+
+        <label class="theme-switch">
+            <input type="checkbox" id= "toggle-switch">
+            <div class="slider round">
+            </div>
+        </label>
+    </div>
+    <!-- Navbar  -->
+
+    <nav id="nav">
+
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+
+
+
+
+    </nav>
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to my Website</h1>
+        <h2>Tanish Anand</h2>
+        <img src="svg-images/light-mode/home.svg" class="svg-image" id="home-img">
+    </section>
+    <!-- About section -->
+    <section id="about" class="about">
+        <h1>Undraw Illustrations</h1>
+        <div class="about-container" id="#about-container">
+            <h2 class="heading" id="heading3">Problem Solver
+                <img src="svg-images/light-mode/1.svg" class="svg-image" id="image1"></h2>
+            <h2 class="heading" id="heading2">Tech Enthusiast
+                <img src="svg-images/light-mode/2.svg" class="svg-image" id="image2"></h2>
+            <h2 class="heading" id="heading1">Web Developer
+                <img src="svg-images/light-mode/3.svg" class="svg-image" id="image3"></h2>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="button-container" id="button-container">
+            <button class="primary">Primary</button>
+            <button class="secondary">Secondary</button>
+            <button class="primary" disabled>Disabled</button>
+            <button class="outline">Outline</button>
+            <button class="secondary outline">Secondary Outline</button>
+            <button class="outline" disabled>Disabled</button>
+        </div>
+        <div class="text-box" id="text-box">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus voluptate hic perspiciatis nostrum quasi
+                quaerat, non incidunt, molestiae amet assumenda soluta. Et, quo. Eaque autem optio ipsam, fuga molestiae
+                non? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus voluptate hic perspiciatis nostrum
+                quasi quaerat, non incidunt, molestiae amet assumenda soluta. Et, quo. Eaque autem optio ipsam, fuga
+                molestiae non?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus voluptate hic perspiciatis
+                nostrum quasi quaerat, non incidunt, molestiae amet assumenda soluta. Et, quo. Eaque autem optio ipsam,
+                fuga molestiae non?</p>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h1>Contact me</h1>
+        <div class="contact-links" id="contact-links">
+            <i class="fab fa-github"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+
+
+
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
