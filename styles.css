@@ -336,6 +336,9 @@ input:checked + .slider::before{
         display: flex;
         flex-flow: column;
     }
+    #about {
+        padding-top: 50px;
+    }
     .svg-image {
         height: 100px;
     width: 120px; 
